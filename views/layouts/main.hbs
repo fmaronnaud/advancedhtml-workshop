@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="en" vocab="http://schema.org/">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="description" content="Home page with latest articles">
+		<script type="application/ld+json">
+			{
+			    "@context": "http://schema.org",
+			    "@type": "WebSite",
+			    "name": "Micro workshop!",
+			    "url": "http://www.micro-workshop.com/",
+			    "about": "Microformats, RDFA, microdata, ARIA",
+			    "inLanguage": "en",
+			    "accessibilityAPI": "ARIA"
+			}
+		</script>
+		<title>Micro workshop - Home with latest articles!</title>
+		<link rel="canonical" href="http://www.micro-workshop.com/">
+		<link rel="profile" href="http://microformats.org/profile/hcard">
+		<link rel="stylesheet" href="/styles/main.css">
+	</head>
+	<body typeof="WebPage">
+		<meta property="about" content="Home page with latest articles" />
+		<meta property="url" content="http://www.micro-workshop.com/" />
+		<meta property="name" content="Micro workshop - Home with latest articles!" />
+		<div class="wrapper-primary">
+			{{>nav}}
+			{{{body}}}
+			{{>isi}}
+			{{>leavingpopup}}
+			{{>footer}}
+		</div>
+	</body>
+</html>

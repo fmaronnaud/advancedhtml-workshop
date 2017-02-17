@@ -1,0 +1,52 @@
+body{
+	font-family: 'Arial';
+}
+
+.nav-primary{
+	background: #f1cbcb;
+}
+.nav-secondary{
+	background: #d1a5d2;
+}
+.header-primary{
+	background: #c1c1dc;
+}
+.main-content{
+	background: #c9e9ec;
+}
+.isi-primary{
+	background: #a6ea95;
+}
+.popup-leaving{
+	background: #ceae88;
+}
+.footer-primary{
+	background: #a3dc58;
+}
+
+.nav-primary ul{
+	margin: 0;
+	padding: 0;
+}
+.nav-primary ul li{
+	display: inline-block;
+}
+.nav-primary ul li:not(:last-child)::after { 
+    content: " | ";
+}
+.nav-secondary ul{
+	margin: 0;
+	padding: 0;
+}
+.nav-secondary ul li{
+		display: inline-block;
+}
+.nav-secondary ul li:not(:last-child)::after { 
+    content: " | ";
+}
+
+
+.footer-primary .logo-klick{
+	width: 200px;
+	display: block;
+}
